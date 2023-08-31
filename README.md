@@ -5,7 +5,7 @@ The things I do when setting up a new Mac
 ## Setup shell
 
 - [ ] Install [homebrew](https://brew.sh)
-- [ ] Install [Caskfile](Caskfile) and [Brewfile](Brewfile)
+- [ ] Install [Brewfile](Brewfile) `brew bundle`
 - [ ] Install [iTerm 3](https://www.iterm2.com/version3.html)
 - [ ] Login locally on GitHub
 - [ ] Setup [dotfiles](https://github.com/krausefx/dotfiles)
