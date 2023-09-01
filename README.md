@@ -5,72 +5,55 @@ The things I do when setting up a new Mac
 ## Setup shell
 
 - [ ] Install [homebrew](https://brew.sh)
+- [ ] `brew install git`
+- [ ] `cd ~; mkdir git; cd git; git clone https://github.com/flowolf/new-mac; cd new-mac`
 - [ ] Install [Brewfile](Brewfile) `brew bundle`
-- [ ] Install [iTerm 3](https://www.iterm2.com/version3.html)
-- [ ] Login locally on GitHub
-- [ ] Setup [dotfiles](https://github.com/krausefx/dotfiles)
-- [ ] Follow [what-terminal-is-felix-using](https://github.com/KrauseFx/what-terminal-is-felix-using)
-- [ ] Login to heroku
-- [ ] Transfer `~/Developer` folder using Airdrop to also transfer hidden `.keys` files and such
-- [ ] [Disable Ruby documentation parsing](http://mts.io/2015/04/19/fix-slow-gem-install/)
-- [ ] Install [zeit now](https://zeit.co/) `npm install -g now`
-
-## Alfred
-
-- [ ] [Download](https://www.alfredapp.com/) and enable it for CMD + space
-- [ ] Enable sync via Google Drive
-
-## BetterTouchTool
-
-- [ ] Download, install and enable [BTT](https://www.boastr.net/)
-- [ ] Transfer settings from other Mac
-
-## Tweetbot
-
-- [ ] Login to all accounts
+- [ ] Login to Firefox
+- [ ] Setup [dotfiles](https://github.com/flowolf/dotfiles/)
+- [ ] Login to OneDrive
+  - [ ] link one directory in Documents
+- [ ] Copy some files
+  - [ ] Applications/Scripts
+  - [ ]
 
 ## VS Code
 
 - [ ] Login for settings sync
-- [ ] CMD + Shift + P => `install code command`
 
 ## Finder
 
 - [ ] Show Path Bar
-- [ ] Remove labels and clean up Sidebar
 
 ## Dock
 
 - [ ] Auto-hide dock
+  - [ ] `defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0.3 && defaults write com.apple.dock autohide-time-modifier -float 0.3 && killall Dock ` defaults (`defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock`)
 - [ ] Remove all the  things
 
 ## Install and setup
 
-- [ ] [Telegram](https://itunes.apple.com/us/app/telegram/id747648890?mt=12)
-- [ ] [Aware](https://itunes.apple.com/us/app/aware/id1082170746?mt=12)
-- [ ] [Bartender](https://www.macbartender.com/)
-- [ ] [DejaLu](https://dejalu.me/)
-- [ ] [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)
-- [ ] [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html)
-- [ ] [Apple watch screensaver](http://www.rasmusnielsen.dk/applewatch/)
-- [ ] [Overkill - kill iTunes](https://github.com/KrauseFx/overkill-for-mac/releases/download/1.0/Overkill.zip)
-- [ ] NSLogger
+- [ ] [Signal](https://signal.org/)
+  - start Signal, and link.
+- [ ] [Element](https://element.io/)
+  - start and login.
+- [ ] [Slack](https://slack.com/)
+  - start and login.
+- [ ] [Spotify](https://spotify.com)
+  - start and login.
 
 ## Mac App Store
 
-- [ ] [Trello](https://itunes.apple.com/us/app/trello/id1278508951?mt=12)
-- [ ] Tweetbot
-- [ ] Bear Notes
-- [ ] Pixelmator
-- [ ] Timing
+- [ ] [XCode](https://apps.apple.com/at/app/xcode/id497799835?l=en-GB&mt=12)
+  - download via AppStore
+- [ ] [Lightshot](https://apps.apple.com/us/app/lightshot-screenshot/id526298438)
+  - install Lightshot
 
 ## Other
 
-- [ ] Enable iMessages Cloud sync
 - [ ] Make emojis faster using `defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false`
 - [ ] Enable taps for trackpad
 - [ ] Increase trackpad speed
-- [ ] Add email to lock message in `Security & Privacy` settings
+- [ ] Add email to lock message in `Lock Screen` settings: `Show message when locked`
 - [ ] Enable zoom for `control` + scrolling (System Preferences -> Accessibility -> Zoom -> `Use scroll gesture ...`
 - [ ] Custom keyboard shortcut for all apps: `control` + tab => `Select Next Tab` and `Next Tab`, same for previous (used in applications like Tweetbot)
 - [ ] Keyboard `Key Repeat` to the fastest, `Delay` to the second shortest
