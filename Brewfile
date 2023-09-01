@@ -46,7 +46,7 @@ brew "mosquitto"
 brew "ncdu"
 brew "openssl@3", link: false
 brew "nmap"
-brew "node", link: false
+brew "node"
 brew "nvm"
 brew "postgresql@14"
 brew "qrencode"
