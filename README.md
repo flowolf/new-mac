@@ -8,10 +8,7 @@ The things I do when setting up a new Mac
 - [ ] `brew install git`
 - [ ] `cd ~; mkdir git; cd git; git clone https://github.com/flowolf/new-mac; cd new-mac`
 - [ ] Install [Brewfile](Brewfile) `brew bundle`
-- [ ] Login to Firefox
 - [ ] Setup [dotfiles](https://github.com/flowolf/dotfiles/)
-- [ ] Login to OneDrive
-  - [ ] link one directory in Documents
 - [ ] Copy some files
   - [ ] Applications/Scripts
   - [ ] Documents
@@ -33,12 +30,15 @@ The things I do when setting up a new Mac
 
 ## Install and setup
 
+- [ ] Login to Firefox
 - [ ] [Signal](https://signal.org/)
   - start Signal, and link.
 - [ ] [Element](https://element.io/)
   - start and login.
 - [ ] [Slack](https://slack.com/)
   - start and login.
+- [ ] Login to OneDrive
+  - [ ] link one directory in Documents
 - [ ] [Spotify](https://spotify.com)
   - start and login.
 
