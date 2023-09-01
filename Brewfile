@@ -32,7 +32,7 @@ brew "grep"
 brew "htop"
 brew "hugo"
 brew "imagemagick"
-brew "ipython", link: false
+brew "ipython"
 brew "jq"
 brew "krb5"
 brew "lab"

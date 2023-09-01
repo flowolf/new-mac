@@ -14,7 +14,8 @@ The things I do when setting up a new Mac
   - [ ] link one directory in Documents
 - [ ] Copy some files
   - [ ] Applications/Scripts
-  - [ ]
+  - [ ] Documents
+  - [ ] ...
 
 ## VS Code
 
@@ -55,26 +56,17 @@ The things I do when setting up a new Mac
 - [ ] Increase trackpad speed
 - [ ] Add email to lock message in `Lock Screen` settings: `Show message when locked`
 - [ ] Enable zoom for `control` + scrolling (System Preferences -> Accessibility -> Zoom -> `Use scroll gesture ...`
-- [ ] Custom keyboard shortcut for all apps: `control` + tab => `Select Next Tab` and `Next Tab`, same for previous (used in applications like Tweetbot)
 - [ ] Keyboard `Key Repeat` to the fastest, `Delay` to the second shortest
-- [ ] Enable US keyboard with German Umlaut mapping: https://hci.rwth-aachen.de/usgermankeyboard
-- [ ] Install Bitbar and point to Google Drive Bitbar folder
 - [ ] Disable all app dock bouncing `defaults write com.apple.dock no-bouncing -bool TRUE`
 - [ ] Disable Siri system wide, and remove Siri button from touch bar
-- [ ] `defaults write com.flexibits.fantastical2.mac HideLocationSuggestions -bool YES`
-- [ ] `defaults write com.flexibits.fantastical2.mac AlwaysIgnoreLocation -bool YES`
-- [ ] `defaults write com.flexibits.fantastical2.mac ShowEmailDefaultAlarm -bool YES`
-- [ ] Fantastical Advanced setting `Go to today after adding items` (who even comes up with that default)
+- [ ] Setup `/etc/hosts` using [someonewhocares.org/hosts](https://someonewhocares.org/hosts/) ‼️
+  - [ ] Don't use Little Snitch for this, as it will slow down their UI a lot, better use the hosts file
+- [ ] Keyboard settings -> Shortcuts -> Input Sources -> Uncheck both input source switching options
+- [ ] iTerm Tab Bar Location to bottom
+- [ ] iTerm Profiles Terminal -> Scrollback lines -> `Unlimited scrollback`
+
+# maybe:
+
 - [ ] [Disable all kinds of animations](https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x)
   - [ ] `defaults write -g NSAutomaticWindowAnimationsEnabled -bool false` (disable popover animations)
   - [ ] `defaults write -g NSWindowResizeTime -float 0.001`
-- [ ] System preferences -> Notifications -> `Tower` -> None, as Tower shows pretty useless notifications all the time, same for Sonos
-- [ ] Setup `/etc/hosts` using [someonewhocares.org/hosts](https://someonewhocares.org/hosts/)
-  - [ ] Don't use Little Snitch for this, as it will slow down their UI a lot, better use the hosts file
-- [ ] Block port 80 using Little Snitch
-- [ ] Change the screenshot location from BTT
-- [ ] Transfer keybase.io account
-- [ ] Keyboard settings -> Shortcuts -> Input Sources -> Uncheck both input source switching options
-- [ ] iTerm Tab Bar Location to bottom
-- [ ] iTerm Profiles Advanced -> Select Editor VS Code
-- [ ] iTerm Profiles Terminal -> Scrollback lines -> `Unlimited scrollback`
