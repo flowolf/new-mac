@@ -42,6 +42,14 @@ The things I do when setting up a new Mac
 - [ ] [Spotify](https://spotify.com)
   - start and login.
 
+## dev tools setup
+
+- [install nvm ](https://github.com/nvm-sh/nvm#install--update-script)
+  - install nvm
+- install cocoapods:
+  - sudo gem install activesupport -v 6.1.7.6
+  - sudo gem install cocoapods
+
 ## Mac App Store
 
 - [ ] [XCode](https://apps.apple.com/at/app/xcode/id497799835?l=en-GB&mt=12)
