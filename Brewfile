@@ -85,6 +85,7 @@ cask "wireshark"
 # android builds
 cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "responsively"
+cask "obs"
 vscode "bierner.markdown-mermaid"
 vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
 vscode "bungcip.better-toml"
