@@ -82,6 +82,8 @@ cask "visual-studio-code"
 cask "slack"
 cask "synergy-core"
 cask "wireshark"
+# steno
+#cask "plover"
 # android builds
 cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "responsively"
