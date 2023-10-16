@@ -67,6 +67,8 @@ brew "zbar"
 brew "sass/sass/sass"
 brew "yt-dlp/taps/yt-dlp"
 cask "firefox"
+# copy paste tool
+cask "maccy"
 cask "brackets"
 cask "chrysalis"
 cask "cool-retro-term"
