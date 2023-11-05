@@ -27,7 +27,12 @@ brew "docker"
 brew "docker-compose"
 brew "tesseract"
 brew "ffmpeg"
+# borg
 brew "borgbackup"
+brew "borgmatic"
+brew "python-certifi"
+cask "macfuse"
+
 brew "git"
 brew "glab"
 brew "gnu-sed"
